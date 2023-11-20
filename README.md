@@ -4,7 +4,9 @@
 3-Download the pre-trained model:
 
 bin/download_model
+
 4-run classify.py file then modelCode.py file 
+
 5-finally run this command 'uvicorn app:app --reload'
 
 Here's a sample request to the API:
@@ -27,6 +29,7 @@ The response you'll get looks something like this:
 Start the HTTP server:
 
 bin/start_server
+
 Send a test request:
 
 bin/test_request
