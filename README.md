@@ -1,6 +1,9 @@
 # sentimentAnalysis
+
 1-create virtual environment
+
 2-create folder named 'downloadedModel' and file named 'model_state_dict.bin'
+
 3-Download the pre-trained model:
 
 bin/download_model
