@@ -1,16 +1,14 @@
 # sentimentAnalysis
 
-1-create virtual environment
+1-create folder named 'downloadedModel' and file named 'model_state_dict.bin'
 
-2-create folder named 'downloadedModel' and file named 'model_state_dict.bin'
-
-3-Download the pre-trained model:
+2-Download the pre-trained model:
 
 bin/download_model
 
-4-run classify.py file then modelCode.py file 
+3-run classify.py file then modelCode.py file 
 
-5-finally run this command 'uvicorn app:app --reload'
+4-finally run this command 'uvicorn app:app --reload'
 
 Here's a sample request to the API:
 
