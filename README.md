@@ -4,7 +4,6 @@
 3-Download the pre-trained model:
 
 bin/download_model
-"downloadedModel\model_state_dict.bin "
 4-run classify.py file then modelCode.py file 
 5-finally run this command 'uvicorn app:app --reload'
 
@@ -23,3 +22,11 @@ The response you'll get looks something like this:
     },
     "sentiment": "neutral"
 }
+
+
+Start the HTTP server:
+
+bin/start_server
+Send a test request:
+
+bin/test_request
